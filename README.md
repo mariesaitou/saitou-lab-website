@@ -1,8 +1,8 @@
 # Research Lab website
 
-This is a Quarto website published with GitHub Pages. The public ORCID Works
-list determines which publications appear. OpenAlex and Crossref enrich those
-records; only annotations and exceptional records are edited manually.
+This is a Quarto website published with GitHub Pages. Publication metadata can
+be updated locally from ORCID, OpenAlex, and Crossref, then reviewed and pushed
+to GitHub with the rest of the site.
 
 ## Local preview
 
@@ -17,14 +17,12 @@ records; only annotations and exceptional records are edited manually.
 - `data/publication_notes.csv`: optional links, annotations, and display controls, keyed by DOI.
 - `data/publication_manual.csv`: preprints and records not yet available from the APIs.
 
-For polite Crossref API use, add a repository secret named `CROSSREF_MAILTO`
-containing a contact email address. To use a different author, set `LAB_ORCID`.
-The update currently includes articles and preprints from 2015 onward; change
-`LAB_PUBLICATION_START_YEAR` if an earlier cutoff is needed. Exact-title
+The update currently includes articles and preprints from 2015 onward. Exact-title
 duplicates prefer the journal article over its preprint.
 
 ## GitHub Pages setup
 
 After pushing to a GitHub repository, open **Settings → Pages** and select
 **Deploy from a branch**, then choose the `gh-pages` branch and `/ (root)`.
-The workflow runs on pushes to `main`, every Monday, and on demand.
+The workflow publishes the checked-in site data whenever changes are pushed to
+`main`; it does not fetch publication data automatically.

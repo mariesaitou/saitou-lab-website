@@ -1,10 +1,8 @@
-name: Update publications and publish site
+name: Publish site
 
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: "17 4 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -23,17 +21,10 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages: |
-            any::jsonlite
             any::knitr
             any::rmarkdown
 
       - uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Update publication metadata
-        run: Rscript R/update_publications.R
-        env:
-          LAB_ORCID: "0000-0002-8794-3217"
-          CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
 
       - name: Render site
         run: quarto render
