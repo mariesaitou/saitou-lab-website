@@ -26,7 +26,7 @@ Her research combines evolutionary, population, comparative, and functional
 genomics to study structural variation, gene regulation, adaptation, and the
 evolution of biological diversity.
 
-Profiles: [ORCID](https://orcid.org/0000-0002-8794-3217) · [Google Scholar](https://scholar.google.com/citations?user=QDLB--8AAAAJ) · [LinkedIn](https://no.linkedin.com/in/marie-saitou-795819217) · [ResearchGate](https://www.researchgate.net/profile/Marie-Saitou) · [Bluesky](https://bsky.app/profile/marie-saitou.bsky.social)
+Profiles: [ORCID](https://orcid.org/0000-0002-8794-3217) · [Google Scholar](https://scholar.google.com/citations?user=QDLB--8AAAAJ) · [researchmap](https://researchmap.jp/mariesaitou) · [LinkedIn](https://no.linkedin.com/in/marie-saitou-795819217) · [ResearchGate](https://www.researchgate.net/profile/Marie-Saitou) · [Bluesky](https://bsky.app/profile/marie-saitou.bsky.social)
 
 [Download CV (PDF, 2026)](output/pdf/Marie_Saitou_CV_2026.pdf).
 :::
