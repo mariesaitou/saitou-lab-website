@@ -1,0 +1,31 @@
+---
+title: "Courses"
+---
+
+Courses taught by Marie Saitou at the Faculty of Biosciences, Norwegian University of Life Sciences.
+
+::: {.course-list}
+::: {.course-card}
+## BIO322 · Advanced Topics in Genomics
+
+How does genome-scale variation generate biological differences between species, among individuals, and between cells? BIO322 connects evolutionary, regulatory, and molecular genomics with computational analysis of real datasets.
+
+The course is organised around genomic evolution between species, variation among individuals, gene regulation within organisms, and a group research proposal. Weekly lectures are combined with group exercises, quizzes, and project work.
+
+**10 ECTS · Autumn parallel · English · Campus Ås**
+
+[Official BIO322 course description](https://www.nmbu.no/en/course/BIO322){.course-link}
+:::
+
+::: {.course-card}
+## BIO326 · Genome Sequencing: Tools and Analysis
+
+BIO326 examines how genome sequences are generated, reconstructed, assessed, and interpreted across eukaryotes, prokaryotes, and microbial communities.
+
+Students combine wet-lab and computational work, including DNA preparation, long-read sequencing, genome assembly, annotation, quality assessment, and analysis of genomic and metagenomic datasets.
+
+**10 ECTS · Spring parallel · English · Campus Ås**
+
+[Official BIO326 course description](https://www.nmbu.no/en/course/BIO326){.course-link}
+:::
+:::

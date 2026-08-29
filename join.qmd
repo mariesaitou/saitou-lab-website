@@ -1,0 +1,80 @@
+---
+title: "Join Us"
+page-layout: full
+---
+
+::: {.page-intro}
+We welcome motivated students, postdoctoral researchers, and visiting researchers.
+
+If you are interested in joining the group, please contact Marie at [marie.saitou@nmbu.no](mailto:marie.saitou@nmbu.no). Please include:
+
+1. **Why are you interested in our lab? What do you want to learn?**
+2. **Which paper from the group do you like best, and why?**
+3. **A brief introduction to you and your research experience, together with your CV.**
+
+We may not reply to non-specific enquiries. The University of Göttingen’s [dos and don’ts when applying for a PhD position](https://www.uni-goettingen.de/en/dos+and+don%27ts+when+applying+for+a+phd+position/501430.html) provides useful guidance before writing.
+:::
+
+::: {.guide-links}
+### [Group Expectations](https://docs.google.com/document/d/14BRUB3AUNCxXBEWVcv9eHjzRqm3aeTLwNNuip-RUVY4/edit?usp=sharing)
+
+Our shared expectations for communication, supervision, independence, authorship, collaboration, and a constructive research environment.
+
+### [Starting your research life in Norway](https://sites.google.com/view/saitou-lab/join-us/starting-your-research-life-in-norway)
+
+Practical guidance for researchers moving to Norway, including preparations before arrival and the first administrative steps after moving.
+:::
+
+## Funding and study routes
+
+::: {.funding-grid}
+::: {.funding-card}
+### Postdoctoral fellowships
+
+The MSCA Postdoctoral Fellowship supports international mobility and can be prepared with NMBU as the host institution. NMBU normally runs an annual proposal masterclass. EMBO also offers international postdoctoral fellowships in the life sciences.
+
+[NMBU MSCA Postdoctoral Masterclass](https://www.nmbu.no/en/research/nmbu-msca-postdoctoral-masterclass) · [EMBO Postdoctoral Fellowships](https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/)
+:::
+
+::: {.funding-card}
+### PhD study at the Faculty of Biosciences
+
+The Biosciences PhD programme includes genomics, biotechnology, basic and applied biology, and related fields. PhD opportunities are normally linked to advertised funded positions.
+
+[PhD in Biosciences at NMBU](https://www.nmbu.no/en/studies/phd/biosciences)
+:::
+
+::: {.funding-card}
+### Master’s study at the Faculty of Biosciences
+
+The Faculty of Biosciences offers master’s education and research projects across the biosciences. The former **Genome Sciences** programme is no longer admitting new applicants after 2025; prospective students should check the faculty’s current programmes.
+
+Students from partner universities may also be able to join NMBU through **Erasmus+ exchange or traineeship routes**. Traineeship placements and project supervision depend on faculty and supervisor capacity.
+
+[Current programmes at the Faculty of Biosciences](https://www.nmbu.no/en/fakulteter/biovitenskap) · [Incoming exchange students and Erasmus+](https://www.nmbu.no/en/students/exchange/incoming-exchange-students) · [Genome Sciences programme notice](https://www.nmbu.no/en/studies/study-options/master/genome-science)
+:::
+:::
+
+Students may also consult the [Study in Norway funding information](https://studyinnorway.no/study-opportunities/scholarships) for currently available scholarship and grant routes.
+
+For practical information about degree programmes at the Faculty of Biosciences, PhD procedures, regulations, forms, and master’s thesis documents, see [Resources](resources.qmd).
+
+## Goals at each career stage
+
+Science is a continuing process of learning and contributing—the PI keeps learning too. Expectations differ by career stage, but all group members should develop increasing independence in asking questions, choosing suitable methods, communicating results, and contributing constructively to the research community. The detailed working principles are described in our [Group Expectations](https://docs.google.com/document/d/14BRUB3AUNCxXBEWVcv9eHjzRqm3aeTLwNNuip-RUVY4/edit?usp=sharing).
+
+## Research opportunities in Japan
+
+For those interested in conducting research in **Japan**, the Japan Society for the Promotion of Science offers fellowship routes for researchers at several career stages.
+
+[JSPS fellowship programmes](https://www.jsps.go.jp/english/e-fellow/)
+
+## Where we are
+
+Saitou Lab is based at the Faculty of Biosciences, Norwegian University of Life Sciences, in Ås, approximately 30 km south of Oslo.
+
+**Room HU138** — ground floor, near the stairs
+
+<div class="map-frame">
+<iframe title="Map showing CIGENE at NMBU in Ås" src="https://www.google.com/maps?q=Oluf+Thesens+vei+6,+1433+Ås,+Norway&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>

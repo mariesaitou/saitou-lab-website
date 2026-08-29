@@ -1,0 +1,107 @@
+---
+title: "Home / News"
+body-classes: home-page
+toc: false
+page-layout: full
+---
+
+::: {.hero}
+::: {.hero-inner}
+::: {.eyebrow}
+Evolutionary · Population · Functional Genomics
+:::
+
+::: {.hero-title}
+![](assets/images/brand/Desktoplogo.png){.hero-logo alt="Saitou Lab logo"}
+
+# Marie Saitou Lab
+:::
+
+**Faculty of Biosciences · Norwegian University of Life Sciences (NMBU)**
+:::
+:::
+
+::: {.home-content}
+
+::: {.research-intro}
+**How do genomes enable organisms to evolve, adapt, and persist?**
+
+- How new traits and regulatory systems arise, and how structural variation,
+  chromosome evolution, and whole-genome duplication reshape genomes.
+- How wild organisms thrive in their environments, where populations become
+  vulnerable, and how genomic evidence can inform ecology and conservation.
+- How domestication, human-driven selection, and infectious disease influence
+  molecular adaptation.
+
+We address these questions using population and comparative genomics,
+transcriptomics, gene-regulatory analysis, and evolutionary modelling.
+
+**Seminars and scientific exchange are welcome.** Marie is happy to give talks
+at other institutions, and we welcome enquiries from researchers interested in
+visiting or speaking at NMBU.
+:::
+
+## Lab news
+
+::: {.news-stream}
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+source("R/render_helpers.R")
+publications <- load_publications()
+lab_items <- data.frame(
+  date = c("2026-08-29", "2026-03-16"),
+  kind = c("General", "Achievement"),
+  title = c(
+    "Saitou Lab website renewed",
+    "Célian Diblasi defended his PhD thesis"
+  ),
+  summary = c(
+    "The lab website has been rebuilt with an automatically updated publication and preprint feed.",
+    "Structural variants and whole genome duplication in Atlantic salmon evolution"
+  ),
+  url = c(
+    "",
+    "https://www.nmbu.no/en/research/public-defences/16-march-celian-diblasi"
+  ),
+  stringsAsFactors = FALSE
+)
+render_home_news(publications, year = 2026, extra_items = lab_items)
+```
+:::
+
+<details class="past-news">
+<summary>Earlier news</summary>
+
+::: {.news-stream .earlier-news}
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+earlier_items <- data.frame(
+  date = c("2025-09-11", "2025-06-12"),
+  kind = c("Achievement", "Achievement"),
+  title = c(
+    "Domniki Manousi defended her PhD thesis",
+    "Erik Sandertun Røed received NMBU’s award for the best master’s thesis of 2024"
+  ),
+  summary = c(
+    "Genomic Basis of Pathogen Response and Immune Gene Evolution in Atlantic Salmon",
+    "Awarded for his work on genomic tools for European lobster conservation."
+  ),
+  url = c(
+    "https://www.nmbu.no/en/research/public-defences/september-11th-domniki-manousi-biovit",
+    "https://www.nmbu.no/studenter/erik-sandertun-roed-vant-pris-beste-oppgave-2024"
+  ),
+  stringsAsFactors = FALSE
+)
+render_home_news(publications, year = 2025, extra_items = earlier_items)
+```
+:::
+
+</details>
+
+:::

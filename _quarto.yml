@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - research.qmd
+    - people.qmd
+    - publications.qmd
+    - courses.qmd
+    - resources.qmd
+    - join.qmd
+
+website:
+  title: "Saitou Lab"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home / News
+      - research.qmd
+      - people.qmd
+      - publications.qmd
+      - courses.qmd
+      - resources.qmd
+      - join.qmd
+  page-footer:
+    center: "© Saitou Lab · Norwegian University of Life Sciences"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    link-external-newwindow: true
+
+execute:
+  freeze: false

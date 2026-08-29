@@ -1,0 +1,155 @@
+Saitou Lab website — GitHub Pages 公開手順
+==================================================
+
+このフォルダは、まだGitリポジトリとして初期化されていません。
+以下は「最初の1回だけ行う作業」と「その後の更新作業」です。
+
+
+【A. GitHub上で空のリポジトリを作る（最初の1回だけ）】
+
+1. https://github.com/new を開く。
+2. Repository name を入力する。
+   例: saitou-lab-website
+3. Public を選ぶ。
+4. README、.gitignore、Licenseは追加しない（空のリポジトリにする）。
+5. Create repository を押す。
+6. 表示されたリポジトリURLを控える。
+   例: https://github.com/ユーザー名/saitou-lab-website.git
+
+
+【B. ローカルのサイトを最初にGitHubへ送る】
+
+Macのターミナルを開き、以下を1行ずつ実行する。
+
+cd "/Users/saitoumarie/Library/CloudStorage/Dropbox/MyGitHub/MyResearch/lab-website"
+
+git init
+
+git branch -M main
+
+git add .
+
+git status
+
+重要:
+git status の一覧に archive、tmp、_site、TT書類、ORCID PDFが含まれて
+いないことを確認する。これらは公開しない。
+
+問題がなければ次へ進む。
+
+git commit -m "Create Saitou Lab website"
+
+次のURLは、Aで作った実際のリポジトリURLに置き換える。
+
+git remote add origin https://github.com/ユーザー名/saitou-lab-website.git
+
+git push -u origin main
+
+GitHubへのログインや認証画面が出た場合は、Marieが画面上で許可する。
+
+
+【C. GitHub Actionsの書き込みを許可する（最初の1回だけ）】
+
+GitHub上のリポジトリで次を開く。
+
+Settings → Actions → General → Workflow permissions
+
+「Read and write permissions」を選び、Saveを押す。
+
+この権限は、サイト生成結果を gh-pages ブランチへ書き込むために必要。
+
+
+【D. Crossref用メールアドレスを登録する（推奨・最初の1回だけ）】
+
+GitHub上のリポジトリで次を開く。
+
+Settings → Secrets and variables → Actions → New repository secret
+
+Name:
+CROSSREF_MAILTO
+
+Secret:
+自分の連絡用メールアドレス
+
+これはCrossref APIへの連絡先として使われ、ウェブサイトには表示されない。
+
+
+【E. 最初の自動生成を実行する】
+
+GitHub上のリポジトリで次を開く。
+
+Actions → Update publications and publish site → Run workflow
+
+緑のチェックが付くまで待つ。
+初回実行後、gh-pages ブランチが自動的に作られる。
+
+
+【F. GitHub Pagesを有効にする（最初の1回だけ）】
+
+GitHub上のリポジトリで次を開く。
+
+Settings → Pages
+
+Source:
+Deploy from a branch
+
+Branch:
+gh-pages
+
+Folder:
+/ (root)
+
+Saveを押す。しばらくすると公開URLが表示される。
+
+
+【G. その後、サイト内容を更新するとき】
+
+ファイルを編集した後、ターミナルで以下を1行ずつ実行する。
+
+cd "/Users/saitoumarie/Library/CloudStorage/Dropbox/MyGitHub/MyResearch/lab-website"
+
+git status
+
+git add .
+
+git commit -m "Update lab website"
+
+git push
+
+mainへpushするとGitHub Actionsが自動的に論文情報を更新し、サイトを再生成して
+gh-pagesへ公開する。
+
+
+【H. 論文情報だけを手動で更新して確認するとき】
+
+cd "/Users/saitoumarie/Library/CloudStorage/Dropbox/MyGitHub/MyResearch/lab-website"
+
+Rscript R/update_publications.R
+
+quarto render
+
+ローカル表示:
+
+quarto preview
+
+停止するときは、ターミナルで Control + C を押す。
+
+
+【I. 自動更新の現在の設定】
+
+- mainへpushしたとき
+- 毎週月曜日
+- GitHub Actions画面からRun workflowを押したとき
+
+上記のタイミングで、ORCID / OpenAlex / Crossrefから論文情報を取得し、
+GitHub Pagesを更新する。
+
+
+【困ったとき】
+
+- pushに失敗した: GitHubへのログイン・リポジトリURL・権限を確認する。
+- Actionsが赤い: Actionsの失敗した処理を開き、エラー表示をCodexに見せる。
+- Pagesが表示されない: gh-pagesブランチが作られたか、Settings → Pagesの
+  branch設定がgh-pages / rootになっているか確認する。
+- Dropboxのconflicted copyが増える: Quartoで作業中はDropbox同期を一時停止する。
+

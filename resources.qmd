@@ -1,0 +1,25 @@
+---
+title: "Resources"
+---
+
+Practical information and official documents for students, PhD candidates, and supervisors at the Faculty of Biosciences, Norwegian University of Life Sciences.
+
+## PhD at the Faculty of Biosciences
+
+::: {.resource-links .administrative-resources}
+[Faculty of Biosciences PhD programme in Biosciences](https://www.nmbu.no/en/studies/phd/biosciences){.resource-card}
+
+[PhD education at the Norwegian University of Life Sciences — process and practical information](https://www.nmbu.no/en/research/phd-education){.resource-card}
+
+[PhD forms — admission, progress, coursework, and completion](https://www.nmbu.no/en/research/forms-phd-education){.resource-card}
+
+[PhD regulations and Faculty of Biosciences guidelines](https://www.nmbu.no/en/research/regulations-and-guidelines-doctoral-degrees-nmbu){.resource-card}
+:::
+
+## Master’s students
+
+::: {.resource-links .administrative-resources}
+[Faculty of Biosciences master’s thesis information](https://www.nmbu.no/en/faculties/faculty-biosciences/masters-student-biovit){.resource-card}
+
+[Student applications, agreements, and templates](https://www.nmbu.no/en/students/applications-agreements-and-templates-students){.resource-card}
+:::

@@ -1,0 +1,197 @@
+---
+title: "People"
+---
+
+We welcome students, postdoctoral researchers, and visiting researchers who are interested in evolutionary, population, and functional genomics.
+
+## Principal investigator
+
+::: {.person-card .pi-card}
+![](assets/images/people/marie-saitou.jpg){.person-photo aria-label="Marie Saitou"}
+
+::: {.person-meta}
+::: {.person-years}
+Since 2020
+:::
+:::
+
+<div class="person-name-row"><h3>Marie Saitou, PhD</h3><span class="role-tag">Principal investigator</span></div>
+
+Marie Saitou established the Saitou Lab at NMBU in 2020. She previously held
+postdoctoral positions in genetic medicine at the University of Chicago and in
+evolutionary genomics at the University at Buffalo. She received her PhD in
+Biological Anthropology from the University of Tokyo in 2017.
+
+Her research combines evolutionary, population, comparative, and functional
+genomics to study structural variation, gene regulation, adaptation, and the
+evolution of biological diversity.
+
+For publications, see [ORCID](https://orcid.org/0000-0002-8794-3217) or [Google Scholar](https://scholar.google.com/citations?user=QDLB--8AAAAJ). [Download CV (PDF, 2026)](output/pdf/Marie_Saitou_CV_2026.pdf).
+:::
+
+## Alumni
+
+::: {.people-list}
+::: {.person-card}
+![](assets/images/people/celian-diblasi.jpg){.person-photo aria-label="Célian Diblasi"}
+
+::: {.person-meta}
+::: {.person-years}
+2022–2026
+:::
+:::
+
+<div class="person-name-row"><h3>Célian Diblasi, PhD</h3><span class="role-tag">PhD candidate</span></div>
+
+Structural variants, regulatory evolution, dosage compensation, and eQTLs after whole-genome duplication in Atlantic salmon. Subsequently appointed at Lund University.
+
+**Thesis:** [*Structural variants and whole genome duplication in Atlantic salmon evolution*](https://www.nmbu.no/en/research/public-defences/16-march-celian-diblasi)
+
+::: {.representative-work}
+**Representative publications**
+
+[Large-scale eQTL analyses in Atlantic salmon reveal persistent dosage compensation 100 million years after genome duplication](https://doi.org/10.64898/2025.12.15.694296)  
+*bioRxiv* · 2025 · Preprint
+
+[Ancient persistence and recurrent emergence of structural variants across divergent Atlantic salmon lineages](https://doi.org/10.64898/2026.05.25.727466)  
+*bioRxiv* · 2026 · Preprint
+
+[Beyond inversions and deletions: the evolutionary and functional insights from translocations, fissions, and fusions in animal genomes](https://doi.org/10.1038/s41437-025-00785-7)  
+*Heredity* · 2025
+:::
+:::
+
+::: {.person-card}
+![](assets/images/people/domniki-manousi.webp){.person-photo aria-label="Domniki Manousi"}
+
+::: {.person-meta}
+::: {.person-years}
+2022–2025
+:::
+:::
+
+<div class="person-name-row"><h3>Domniki Manousi, PhD</h3><span class="role-tag">PhD candidate</span></div>
+
+The genomic basis of pathogen response, virus resistance, and immune-gene evolution in Atlantic salmon. Subsequently appointed as a postdoctoral researcher at the Roslin Institute, University of Edinburgh.
+
+**Thesis:** [*Genomic Basis of Pathogen Response and Immune Gene Evolution in Atlantic Salmon*](https://www.nmbu.no/en/research/public-defences/september-11th-domniki-manousi-biovit)
+
+::: {.representative-work}
+**Representative publications**
+
+[Dissecting the genetic basis of response to salmonid alphavirus in Atlantic salmon](https://doi.org/10.1186/s12864-025-11735-2)  
+*BMC Genomics* · 2025
+
+[Gene gain and loss drive the diversification of gig immune genes in teleosts: structural and regulatory insights from Atlantic salmon](https://doi.org/10.1016/j.fsi.2025.110975)  
+*Fish & Shellfish Immunology* · 2026
+:::
+:::
+
+::: {.person-card}
+![](assets/images/people/maelys-chapis.jpeg){.person-photo aria-label="Maëlys Chapis"}
+
+::: {.person-meta}
+::: {.person-years}
+2025
+:::
+:::
+
+<div class="person-name-row"><h3>Maëlys Chapis</h3><span class="role-tag">Master’s intern</span></div>
+
+Graph-genotyped structural variants and regulatory haplotypes associated with gene expression in Atlantic salmon.
+
+::: {.representative-work}
+**Representative publication**
+
+[Imputed graph-genotyped structural variants identify regulatory haplotypes associated with gene expression in Atlantic salmon](https://doi.org/10.64898/2026.06.03.729980)  
+*bioRxiv* · 2026 · Preprint
+:::
+:::
+
+::: {.person-card}
+::: {.person-photo .erik-photo role="img" aria-label="Erik Sandertun Røed"}
+:::
+
+::: {.person-meta}
+::: {.person-years}
+2022–2024
+:::
+:::
+
+<div class="person-name-row"><h3>Erik Sandertun Røed</h3><span class="role-tag">Master’s student</span></div>
+
+Genetic and epigenetic tools for conservation monitoring of European lobster. Recipient of NMBU’s award for the best master’s thesis of 2024. Subsequently appointed as a PhD candidate at the University of Oslo.
+
+**Thesis:** [*Evaluating genetic tools to inform conservation efforts for the nationally red-listed European lobster*](https://nmbu.brage.unit.no/nmbu-xmlui/bitstream/handle/11250/3148360/no.nmbu%3Awiseflow%3A7098065%3A59125655.pdf?isAllowed=y&sequence=1)
+
+::: {.representative-work}
+**Representative publication**
+
+[Resampling-based evaluation of a 79-SNP panel for hybrid classification across generations: a case study in European lobster (*Homarus gammarus*)](https://doi.org/10.1093/g3journal/jkag206)  
+*G3: Genes, Genomes, Genetics* · 2026
+:::
+:::
+
+::: {.person-card}
+![](assets/images/people/jun-kwak.webp){.person-photo aria-label="Jun Soung Kwak"}
+
+::: {.person-meta}
+::: {.person-years}
+2022–2024
+:::
+:::
+
+<div class="person-name-row"><h3>Jun Soung Kwak, PhD</h3><span class="role-tag">Postdoctoral researcher</span></div>
+
+Functional genomics of regulatory evolution and vertebrate circadian-rhythm genes. Subsequently appointed Assistant Professor at Kongju National University, South Korea.
+
+::: {.representative-work}
+**Representative publication**
+
+[Functional and regulatory diversification of *Period* genes responsible for circadian rhythm in vertebrates](https://doi.org/10.1093/g3journal/jkae162)  
+*G3: Genes, Genomes, Genetics* · 2024
+:::
+:::
+
+::: {.person-card}
+![](assets/images/people/akira-harding.png){.person-photo aria-label="Akira Harding"}
+
+::: {.person-meta}
+::: {.person-years}
+2023
+:::
+:::
+
+<div class="person-name-row"><h3>Akira Harding</h3><span class="role-tag">Master’s intern</span></div>
+
+Metatranscriptomic analysis of host RNA-seq data to characterize microbial dynamics before disease onset in Atlantic salmon aquaculture.
+
+::: {.representative-work}
+**Representative publication**
+
+[Metatranscriptomic Insights into Microbial Dynamics Prior to Disease Onset in Atlantic Salmon Aquaculture](https://doi.org/10.1101/2025.04.15.648526)  
+*bioRxiv* · 2025 · Preprint
+:::
+:::
+
+::: {.person-card}
+![](assets/images/people/pauline-buso.jpeg){.person-photo aria-label="Pauline Buso"}
+
+::: {.person-meta}
+::: {.person-years}
+2022–2023
+:::
+:::
+
+<div class="person-name-row"><h3>Pauline Buso</h3><span class="role-tag">Master’s intern</span></div>
+
+Parallel selection in domesticated Atlantic salmon from divergent founder populations, with emphasis on whole-genome-duplication-derived regions.
+
+::: {.representative-work}
+**Representative publication**
+
+[Parallel Selection in Domesticated Atlantic Salmon from Divergent Founders Including on Whole-Genome Duplication-derived Homeologous Regions](https://doi.org/10.1093/gbe/evaf063)  
+*Genome Biology and Evolution* · 2025
+:::
+:::
+:::

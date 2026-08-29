@@ -1,0 +1,20 @@
+---
+title: "Publications"
+---
+
+This page is generated from the public
+[ORCID record](https://orcid.org/0000-0002-8794-3217), with publication
+metadata supplemented from OpenAlex and Crossref. For citation counts and a
+broader publication profile, see
+[Google Scholar](https://scholar.google.com/citations?user=QDLB--8AAAAJ).
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+source("R/render_helpers.R")
+publications <- load_publications()
+render_publications(publications)
+```

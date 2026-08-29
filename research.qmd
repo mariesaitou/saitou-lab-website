@@ -1,0 +1,78 @@
+---
+title: "Research"
+---
+
+We study how genomes and biological systems evolve, how genomic variation
+shapes regulation and traits, and how genomics can inform conservation and
+breeding.
+
+::: {.research-card}
+## 1. Tracing the evolution of genome structure
+
+We investigate how structural variation, chromosomal rearrangements, and
+whole-genome duplication arise and shape genome evolution. Atlantic salmon
+provides a central system for studying the long-term consequences of duplicated
+genomic regions.
+
+**Selected publications**
+
+- [Ancient persistence and recurrent emergence of structural variants across divergent Atlantic salmon lineages](https://doi.org/10.64898/2026.05.25.727466)  
+  Diblasi et al. · bioRxiv · 2026
+- [Beyond inversions and deletions: the evolutionary and functional insights from translocations, fissions, and fusions in animal genomes](https://doi.org/10.1038/s41437-025-00785-7)  
+  Diblasi & Saitou · *Heredity* · 2025
+- [Parallel Selection in Domesticated Atlantic Salmon from Divergent Founders Including on Whole-Genome Duplication-derived Homeologous Regions](https://doi.org/10.1093/gbe/evaf063)  
+  Buso et al. · *Genome Biology and Evolution* · 2025
+:::
+
+::: {.research-card}
+## 2. Linking genomic variation to gene regulation and traits
+
+We study how genomic variants alter gene expression, regulatory networks, and
+phenotypes. This includes regulatory divergence and dosage compensation after
+whole-genome duplication, as well as genomic responses to domestication and
+disease.
+
+**Selected publications**
+
+- [Imputed graph-genotyped structural variants identify regulatory haplotypes associated with gene expression in Atlantic salmon](https://doi.org/10.64898/2026.06.03.729980)  
+  Chapis et al. · bioRxiv · 2026
+- [Large-scale eQTL analyses in Atlantic salmon reveal persistent dosage compensation 100 million years after genome duplication](https://doi.org/10.64898/2025.12.15.694296)  
+  Diblasi et al. · bioRxiv · 2025
+:::
+
+::: {.research-card}
+## 3. Understanding the evolution of biological systems at the molecular level
+
+We use comparative genomics and transcriptomics to examine how molecular
+systems originate and diversify. Current work includes the evolution of
+vertebrate secretory systems and the trajectory of lactation-related cellular
+programmes.
+
+**Selected publications**
+
+- [Comparative Transcriptomics Suggests that Breast Secretory Epithelium Reuses Gene Repertoires Conserved Across Vertebrates Beyond Mammals](https://doi.org/10.1093/gbe/evag130)  
+  Saitou · *Genome Biology and Evolution* · 2026
+- [Functional and regulatory diversification of Period genes responsible for circadian rhythm in vertebrates](https://doi.org/10.1093/g3journal/jkae162)  
+  Kwak et al. · *G3: Genes, Genomes, Genetics* · 2024
+- [Gene gain and loss drive the diversification of gig immune genes in teleosts: structural and regulatory insights from Atlantic salmon](https://doi.org/10.1016/j.fsi.2025.110975)  
+  Manousi et al. · *Fish & Shellfish Immunology* · 2026
+:::
+
+::: {.research-card}
+## 4. Applying genomics to conservation and breeding
+
+We combine population genomics and evolutionary modelling to understand the
+condition and vulnerability of wild and managed populations. Applications
+include hybrid detection in European lobster, threatened aquatic and coastal
+populations, Atlantic salmon breeding, and the spatial design of marine
+no-take zones.
+
+**Selected publications**
+
+- [Resampling-based evaluation of a 79-SNP panel for hybrid classification across generations: a case study in European lobster (*Homarus gammarus*)](https://doi.org/10.1093/g3journal/jkag206)  
+  Røed et al. · *G3: Genes, Genomes, Genetics* · 2026
+- [Dissecting the genetic basis of response to salmonid alphavirus in Atlantic salmon](https://doi.org/10.1186/s12864-025-11735-2)  
+  Manousi et al. · *BMC Genomics* · 2025
+- [Metatranscriptomic Insights into Microbial Dynamics Prior to Disease Onset in Atlantic Salmon Aquaculture](https://doi.org/10.1101/2025.04.15.648526)  
+  Saitou et al. · bioRxiv · 2025
+:::

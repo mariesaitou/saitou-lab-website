@@ -1,0 +1,43 @@
+name: Update publications and publish site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: any::jsonlite
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Update publication metadata
+        run: Rscript R/update_publications.R
+        env:
+          LAB_ORCID: "0000-0002-8794-3217"
+          CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
+
+      - name: Render site
+        run: quarto render
+
+      - name: Publish to GitHub Pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+
