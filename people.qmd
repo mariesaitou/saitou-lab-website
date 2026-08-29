@@ -45,7 +45,7 @@ Social: [researchmap](https://researchmap.jp/mariesaitou) · [ResearchGate](http
 :::
 :::
 
-<div class="person-name-row"><h3>Célian Diblasi, PhD</h3><span class="role-tag">PhD candidate</span></div>
+<div class="person-name-row"><h3>Célian Diblasi, PhD</h3><span class="role-tag">Completed PhD</span></div>
 
 Structural variants, regulatory evolution, dosage compensation, and eQTLs after whole-genome duplication in Atlantic salmon. Subsequently appointed at Lund University.
 
@@ -74,7 +74,7 @@ Structural variants, regulatory evolution, dosage compensation, and eQTLs after 
 :::
 :::
 
-<div class="person-name-row"><h3>Domniki Manousi, PhD</h3><span class="role-tag">PhD candidate</span></div>
+<div class="person-name-row"><h3>Domniki Manousi, PhD</h3><span class="role-tag">Completed PhD</span></div>
 
 The genomic basis of pathogen response, virus resistance, and immune-gene evolution in Atlantic salmon. Subsequently appointed as a postdoctoral researcher at the Roslin Institute, University of Edinburgh.
 
