@@ -1,7 +1,6 @@
 ---
 title: "Join Us"
 page-layout: full
-body-classes: join-page
 ---
 
 ::: {.page-intro}
