@@ -12,6 +12,8 @@ project:
 
 website:
   title: "Saitou Lab"
+  google-analytics: "G-L3HV19CWBM"
+  cookie-consent: true
   navbar:
     left:
       - href: index.qmd
