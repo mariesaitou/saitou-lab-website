@@ -80,6 +80,8 @@ The genomic basis of pathogen response, virus resistance, and immune-gene evolut
 
 **Thesis:** [*Genomic Basis of Pathogen Response and Immune Gene Evolution in Atlantic Salmon*](https://www.nmbu.no/en/research/public-defences/september-11th-domniki-manousi-biovit)
 
+**Award: [Best Flash Talk Prize at the 5th International Conference on Integrative Salmonid Biology (2024)](https://cigene.no/news/cigene-at-the-5th-international-conference-on-integrative-salmonid-biology-seattle-march-2024-including-prize-for-best-talk/)**
+
 ::: {.representative-work}
 **Representative publications**
 
@@ -124,9 +126,11 @@ Graph-genotyped structural variants and regulatory haplotypes associated with ge
 
 <div class="person-name-row"><h3>Erik Sandertun Røed</h3><span class="role-tag">Master’s student</span></div>
 
-Genetic and epigenetic tools for conservation monitoring of European lobster. Recipient of NMBU’s award for the best master’s thesis of 2024. Subsequently appointed as a PhD candidate at the University of Oslo.
+Genetic and epigenetic tools for conservation monitoring of European lobster. Subsequently appointed as a PhD candidate at the University of Oslo.
 
 **Thesis:** [*Evaluating genetic tools to inform conservation efforts for the nationally red-listed European lobster*](https://nmbu.brage.unit.no/nmbu-xmlui/bitstream/handle/11250/3148360/no.nmbu%3Awiseflow%3A7098065%3A59125655.pdf?isAllowed=y&sequence=1)
+
+**Award: [NMBU’s university-wide Best Master’s Thesis Award (2024)](https://www.nmbu.no/studenter/erik-sandertun-roed-vant-pris-beste-oppgave-2024)**
 
 ::: {.representative-work}
 **Representative publication**
