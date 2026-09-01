@@ -52,17 +52,20 @@ visiting or speaking at NMBU.
 source("R/render_helpers.R")
 publications <- load_publications()
 lab_items <- data.frame(
-  date = c("2026-08-29", "2026-03-16"),
-  kind = c("General", "Achievement"),
+  date = c("2026-09-01", "2026-08-29", "2026-03-16"),
+  kind = c("General", "General", "Achievement"),
   title = c(
+    "Rytis Plioplys and Abu Rahad will join the lab as MSc students",
     "Saitou Lab website renewed",
     "Célian Diblasi defended his PhD thesis"
   ),
   summary = c(
+    "Rytis will study telomere length and epigenetic aging, and Rahad will investigate cattle genes associated with resistance to bovine viral diarrhea virus.",
     "The lab website has been rebuilt with an automatically updated publication and preprint feed.",
     "Structural variants and whole genome duplication in Atlantic salmon evolution"
   ),
   url = c(
+    "people.html",
     "",
     "https://www.nmbu.no/en/research/public-defences/16-march-celian-diblasi"
   ),
