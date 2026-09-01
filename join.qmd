@@ -16,7 +16,7 @@ We may not reply to non-specific enquiries. The University of Göttingen’s [do
 :::
 
 ::: {.guide-links}
-### [Group Expectations](https://docs.google.com/document/d/14BRUB3AUNCxXBEWVcv9eHjzRqm3aeTLwNNuip-RUVY4/edit?usp=sharing)
+### [Group Expectations (PDF)](assets/documents/Group_expectation_2026.pdf){target="_blank"}
 
 Our shared expectations for communication, supervision, independence, authorship, collaboration, and a constructive research environment.
 

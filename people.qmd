@@ -33,6 +33,46 @@ Social: [researchmap](https://researchmap.jp/mariesaitou) · [ResearchGate](http
 [Download CV (PDF, 2026)](output/pdf/Marie_Saitou_CV_2026.pdf).
 :::
 
+## Prospective students
+
+::: {.people-list}
+::: {.person-card}
+::: {.person-photo-placeholder role="img" aria-label="Rytis Plioplys"}
+RP
+:::
+
+::: {.person-meta}
+::: {.person-years}
+From 2026
+:::
+:::
+
+<div class="person-name-row"><h3>Rytis Plioplys</h3><span class="role-tag">Prospective MSc student</span></div>
+
+Rytis is an MSc student in Genome Science at NMBU. His thesis explores the association between telomere length and epigenetic aging in pregnant women using data from the Norwegian Mother, Father and Child Cohort Study (MoBa).
+
+**Co-supervision:** Yunsung Lee (FHI)
+:::
+
+::: {.person-card}
+::: {.person-photo-placeholder role="img" aria-label="Abu Rahad"}
+AR
+:::
+
+::: {.person-meta}
+::: {.person-years}
+From 2026
+:::
+:::
+
+<div class="person-name-row"><h3>Abu Rahad</h3><span class="role-tag">Prospective MSc student</span></div>
+
+Rahad is an MSc student in the European Joint Master’s in Animal Biodiversity and Genomics (EMABG), NMBU–WUR track. His thesis will focus on identifying and prioritizing cattle genes for increased resistance to bovine viral diarrhea virus (BVDV), integrating CRISPR screening results, single-cell expression data, genetic variation, and CRISPR guide design.
+
+**Co-supervision:** Victor Boyartchuk (NMBU)
+:::
+:::
+
 ## Alumni
 
 ::: {.people-list}
@@ -48,6 +88,8 @@ Social: [researchmap](https://researchmap.jp/mariesaitou) · [ResearchGate](http
 <div class="person-name-row"><h3>Célian Diblasi, PhD</h3><span class="role-tag">Completed PhD</span></div>
 
 Structural variants, regulatory evolution, dosage compensation, and eQTLs after whole-genome duplication in Atlantic salmon. Subsequently appointed at Lund University.
+
+**Co-supervision:** Nicola J. Barson and Simen R. Sandve
 
 **Thesis:** [*Structural variants and whole genome duplication in Atlantic salmon evolution*](assets/documents/theses/celian-diblasi-phd-thesis-2026.pdf)
 
@@ -77,6 +119,8 @@ Structural variants, regulatory evolution, dosage compensation, and eQTLs after 
 <div class="person-name-row"><h3>Domniki Manousi, PhD</h3><span class="role-tag">Completed PhD</span></div>
 
 The genomic basis of pathogen response, virus resistance, and immune-gene evolution in Atlantic salmon. Subsequently appointed as a postdoctoral researcher at the Roslin Institute, University of Edinburgh.
+
+**Co-supervision:** Sigbjørn Lien and Simen R. Sandve
 
 **Thesis:** [*Genomic Basis of Pathogen Response and Immune Gene Evolution in Atlantic Salmon*](assets/documents/theses/domniki-manousi-phd-thesis-2025.pdf)
 
@@ -128,6 +172,8 @@ Graph-genotyped structural variants and regulatory haplotypes associated with ge
 
 Genetic and epigenetic tools for conservation monitoring of European lobster. Subsequently appointed as a PhD candidate at the University of Oslo.
 
+**Co-supervision:** Louise Chavarie
+
 **Thesis:** [*Evaluating genetic tools to inform conservation efforts for the nationally red-listed European lobster*](assets/documents/theses/erik-sandertun-roed-msc-thesis-2024.pdf)
 
 **Award: [NMBU’s university-wide Best Master’s Thesis Award (2024)](https://www.nmbu.no/studenter/erik-sandertun-roed-vant-pris-beste-oppgave-2024)**
@@ -152,6 +198,8 @@ Genetic and epigenetic tools for conservation monitoring of European lobster. Su
 <div class="person-name-row"><h3>Jun Soung Kwak, PhD</h3><span class="role-tag">Postdoctoral researcher</span></div>
 
 Functional genomics of regulatory evolution and vertebrate circadian-rhythm genes. Subsequently appointed Assistant Professor at Kongju National University, South Korea.
+
+**Co-supervision:** Guro K. Sandvik
 
 ::: {.representative-work}
 **Representative publication**
@@ -194,6 +242,10 @@ Metatranscriptomic analysis of host RNA-seq data to characterize microbial dynam
 <div class="person-name-row"><h3>Pauline Buso</h3><span class="role-tag">Master’s intern</span></div>
 
 Parallel selection in domesticated Atlantic salmon from divergent founder populations, with emphasis on whole-genome-duplication-derived regions.
+
+**Co-supervision:** Nicola J. Barson
+
+**Report:** [*Identification of selection sweeps following recent domestication: parallel evolution in farmed Atlantic salmon strains from two geographical origins*](assets/documents/reports/pauline-buso-masters-internship-report-2023.pdf)
 
 ::: {.representative-work}
 **Representative publication**
