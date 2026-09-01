@@ -222,6 +222,8 @@ Functional genomics of regulatory evolution and vertebrate circadian-rhythm gene
 
 Metatranscriptomic analysis of host RNA-seq data to characterize microbial dynamics before disease onset in Atlantic salmon aquaculture.
 
+**Co-supervision:** Arturo Vera Ponce De Leon
+
 ::: {.representative-work}
 **Representative publication**
 
