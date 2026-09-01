@@ -60,7 +60,7 @@ lab_items <- data.frame(
     "Célian Diblasi defended his PhD thesis"
   ),
   summary = c(
-    "Rytis will study telomere length and epigenetic aging, co-supervised by Yunsung Lee (FHI). Rahad will investigate cattle genes associated with resistance to bovine viral diarrhea virus, co-supervised by Victor Boyartchuk (NMBU).",
+    "Rytis will study telomere length and epigenetic aging, co-supervised by Yunsung Lee (Norwegian Institute of Public Health). Rahad will investigate cattle genes associated with resistance to bovine viral diarrhea virus, co-supervised by Victor Boyartchuk (Norwegian University of Life Sciences).",
     "The lab website has been rebuilt with an automatically updated publication and preprint feed.",
     "Structural variants and whole genome duplication in Atlantic salmon evolution"
   ),
