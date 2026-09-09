@@ -37,9 +37,7 @@ Social: [researchmap](https://researchmap.jp/mariesaitou) · [ResearchGate](http
 
 ::: {.people-list}
 ::: {.person-card}
-::: {.person-photo-placeholder role="img" aria-label="Rytis Plioplys"}
-RP
-:::
+![](assets/images/people/rytis-plioplys.png){.person-photo aria-label="Rytis Plioplys"}
 
 ::: {.person-meta}
 ::: {.person-years}
@@ -55,9 +53,7 @@ Rytis is an MSc student in Genome Science at NMBU. His thesis explores the assoc
 :::
 
 ::: {.person-card}
-::: {.person-photo-placeholder role="img" aria-label="Abu Rahad"}
-AR
-:::
+![](assets/images/people/abu-rahad.png){.person-photo aria-label="Abu Rahad"}
 
 ::: {.person-meta}
 ::: {.person-years}
