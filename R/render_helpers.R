@@ -209,9 +209,10 @@ render_home_news <- function(publications, year = 2026, extra_items = data.frame
     title = publications$title,
     summary = ifelse(is.na(publications$journal), "", publications$journal),
     url = ifelse(is.na(publications$publisher_url), "", publications$publisher_url),
+    link_text = "",
     stringsAsFactors = FALSE
   )
-  required <- c("date", "kind", "title", "summary", "url")
+  required <- c("date", "kind", "title", "summary", "url", "link_text")
   extra_items <- ensure_columns(extra_items, required)
   items <- rbind(publication_items[required], extra_items[required])
   if (!nrow(items)) return(invisible(NULL))
@@ -232,8 +233,27 @@ render_home_news <- function(publications, year = 2026, extra_items = data.frame
   for (i in seq_len(nrow(items))) {
     item <- items[i, ]
     kind_class <- paste0("tag-", tolower(item$kind))
-    title <- html_escape(ifelse(is.na(item$title), "Untitled", item$title))
-    title_html <- if (!is.na(item$url) && nzchar(item$url)) link_html(item$url, item$title) else title
+    raw_title <- ifelse(is.na(item$title), "Untitled", item$title)
+    title <- html_escape(raw_title)
+    title_html <- title
+    if (!is.na(item$url) && nzchar(item$url)) {
+      link_text <- ifelse(is.na(item$link_text), "", item$link_text)
+      if (nzchar(link_text)) {
+        match_pos <- regexpr(link_text, raw_title, fixed = TRUE)[1]
+        if (match_pos > 0) {
+          match_end <- match_pos + attr(regexpr(link_text, raw_title, fixed = TRUE), "match.length") - 1
+          title_html <- paste0(
+            html_escape(substr(raw_title, 1, match_pos - 1)),
+            link_html(item$url, substr(raw_title, match_pos, match_end)),
+            html_escape(substr(raw_title, match_end + 1, nchar(raw_title)))
+          )
+        } else {
+          title_html <- link_html(item$url, raw_title)
+        }
+      } else {
+        title_html <- link_html(item$url, raw_title)
+      }
+    }
     summary <- html_escape(ifelse(is.na(item$summary), "", item$summary))
     item_date <- dates[i]
     date_label <- if (is.na(item_date)) as.character(year) else format(item_date, "%B %Y")

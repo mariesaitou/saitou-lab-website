@@ -52,22 +52,31 @@ visiting or speaking at NMBU.
 source("R/render_helpers.R")
 publications <- load_publications()
 lab_items <- data.frame(
-  date = c("2026-09-01", "2026-08-29", "2026-03-16"),
-  kind = c("General", "General", "Achievement"),
+  date = c("2026-09-11", "2026-09-01", "2026-08-29", "2026-03-16"),
+  kind = c("Seminar", "General", "General", "Achievement"),
   title = c(
+    "Marie gave a talk entitled ‘The Human Species as an Outcome of Evolution: From Growth, Population Genomics, and Lactation’ at the Norwegian Institute of Public Health (FHI).",
     "Rytis Plioplys and Abu Rahad will join the lab as MSc students",
     "Saitou Lab website renewed",
     "Célian Diblasi defended his PhD thesis"
   ),
   summary = c(
+    "The seminar was hosted by Yunsung Lee.",
     "Rytis will study telomere length and epigenetic aging, co-supervised by Yunsung Lee (Norwegian Institute of Public Health). Rahad will investigate cattle genes associated with resistance to bovine viral diarrhea virus, co-supervised by Victor Boyartchuk (Norwegian University of Life Sciences).",
     "The lab website has moved from Google Sites to GitHub Pages.",
     "Structural variants and whole genome duplication in Atlantic salmon evolution"
   ),
   url = c(
-    "people.html",
+    "https://www.fhi.no/",
+    "people.html#msc-students",
     "",
     "https://www.nmbu.no/en/research/public-defences/16-march-celian-diblasi"
+  ),
+  link_text = c(
+    "Norwegian Institute of Public Health (FHI)",
+    "Rytis Plioplys and Abu Rahad",
+    "",
+    ""
   ),
   stringsAsFactors = FALSE
 )
