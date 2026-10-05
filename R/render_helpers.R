@@ -26,6 +26,15 @@ load_publications <- function(
   core <- c("doi", "title", "authors", "year", "publication_date", "journal", "type", "publisher_url", "open_access", "citation_count")
   auto <- ensure_columns(auto, core)
   manual <- ensure_columns(manual, core)
+  # A manually curated record with the same DOI takes precedence over the
+  # automatically fetched record, so title and author corrections persist
+  # across publication-data updates.
+  manual_dois <- normalize_doi(manual$doi)
+  manual_dois <- manual_dois[nzchar(manual_dois)]
+  if (length(manual_dois)) {
+    auto_dois <- normalize_doi(auto$doi)
+    auto <- auto[!auto_dois %in% manual_dois, , drop = FALSE]
+  }
   publications <- rbind(auto[core], manual[core])
   if (!nrow(publications)) return(publications)
 
@@ -95,12 +104,20 @@ render_publications <- function(publications) {
   lab_names <- tolower(c("Marie Saitou", "Célian Diblasi", "Celian Diblasi",
     "Domniki Manousi", "Maëlys Chapis", "Maelys Chapis", "Erik Sandertun Røed",
     "Jun Soung Kwak", "Junsoung Kwak", "Akira Harding", "Pauline Buso"))
+  author_links <- c(
+    "david g. hazlerigg" = "https://onlinelibrary.wiley.com/authored-by/Hazlerigg/David+G."
+  )
   authors_html <- function(authors) {
     if (is.na(authors) || !nzchar(authors)) return("")
     people <- trimws(strsplit(authors, ";", fixed = TRUE)[[1]])
     people <- vapply(people, function(person) {
       escaped <- html_escape(person)
-      if (tolower(person) %in% lab_names) paste0("<strong>", escaped, "</strong>") else escaped
+      key <- tolower(person)
+      rendered <- if (key %in% lab_names) paste0("<strong>", escaped, "</strong>") else escaped
+      if (key %in% names(author_links)) {
+        rendered <- paste0('<a href="', html_escape(author_links[[key]]), '">', rendered, "</a>")
+      }
+      rendered
     }, character(1))
     paste(people, collapse = "; ")
   }
