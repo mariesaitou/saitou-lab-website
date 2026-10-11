@@ -144,6 +144,8 @@ The genomic basis of pathogen response, virus resistance, and immune-gene evolut
 
 <div class="person-name-row"><h3>Maëlys Chapis</h3><span class="role-tag">Master’s intern</span></div>
 
+**Programme:** Marine Biological Sciences at IUEM (Brest, France)
+
 Graph-genotyped structural variants and regulatory haplotypes associated with gene expression in Atlantic salmon.
 
 ::: {.representative-work}
@@ -165,6 +167,8 @@ Graph-genotyped structural variants and regulatory haplotypes associated with ge
 :::
 
 <div class="person-name-row"><h3>Erik Sandertun Røed</h3><span class="role-tag">Master’s student</span></div>
+
+**Programme:** MSc in Genome Science at NMBU
 
 Genetic and epigenetic tools for conservation monitoring of European lobster. Subsequently appointed as a PhD candidate at the University of Oslo.
 
@@ -216,6 +220,8 @@ Functional genomics of regulatory evolution and vertebrate circadian-rhythm gene
 
 <div class="person-name-row"><h3>Akira Harding</h3><span class="role-tag">Master’s intern</span></div>
 
+**Programme:** Erasmus+ programme from France
+
 Metatranscriptomic analysis of host RNA-seq data to characterize microbial dynamics before disease onset in Atlantic salmon aquaculture.
 
 **Co-supervision:** Arturo Vera Ponce De Leon
@@ -238,6 +244,8 @@ Metatranscriptomic analysis of host RNA-seq data to characterize microbial dynam
 :::
 
 <div class="person-name-row"><h3>Pauline Buso</h3><span class="role-tag">Master’s intern</span></div>
+
+**Programme:** TULIP programme from France
 
 Parallel selection in domesticated Atlantic salmon from divergent founder populations, with emphasis on whole-genome-duplication-derived regions.
 
