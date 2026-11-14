@@ -12,5 +12,9 @@
 assets/documents/*.docx
 assets/documents/~$*
 
+# Local Codex instructions and maintenance notes
+/AGENTS.md
+/CODEX_SITE_MAINTENANCE.md
+
 
 **/*.quarto_ipynb
