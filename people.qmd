@@ -4,6 +4,64 @@ title: "People"
 
 We welcome students, postdoctoral researchers, and visiting researchers who are interested in evolutionary, population, and functional genomics.
 
+## Lab timeline
+
+The timeline shows the years in which each person was part of the lab. The view opens on the most recent years; scroll horizontally to the left to see earlier members.
+
+::: {.people-timeline}
+::: {.timeline-scroll tabindex="0" role="region" aria-label="Saitou Lab membership timeline"}
+<div class="timeline-canvas">
+<div class="timeline-axis" aria-hidden="true">
+<span class="timeline-axis-label"></span><span>2020</span><span>2021</span><span>2022</span><span>2023</span><span>2024</span><span>2025</span><span>2026</span>
+</div>
+
+<div class="timeline-rows">
+<div class="timeline-group-label timeline-group-current">Current members</div>
+<div class="timeline-row timeline-current">
+<div class="timeline-label"><span class="timeline-status">Principal investigator</span><span class="timeline-person-name">Marie Saitou</span></div><div class="timeline-track"><span class="timeline-bar" style="--start: 0; --span: 7;"></span></div>
+</div>
+<div class="timeline-row timeline-current">
+<div class="timeline-label"><span class="timeline-status">MSc student</span><span class="timeline-person-name">Rytis Plioplys</span></div><div class="timeline-track"><span class="timeline-bar" style="--start: 6; --span: 1;"></span></div>
+</div>
+<div class="timeline-row timeline-current">
+<div class="timeline-label"><span class="timeline-status">MSc student</span><span class="timeline-person-name">Abu Rahad</span></div><div class="timeline-track"><span class="timeline-bar" style="--start: 6; --span: 1;"></span></div>
+</div>
+<div class="timeline-group-gap" aria-hidden="true"></div>
+<div class="timeline-group-label timeline-group-alumni">Alumni</div>
+<div class="timeline-row timeline-alumni timeline-phd">
+<div class="timeline-label"><span class="timeline-status">Completed PhD</span><span class="timeline-person-name">Célian Diblasi</span></div><div class="timeline-track"><span class="timeline-bar" style="--start: 2; --span: 4;"></span><span class="timeline-degree timeline-degree-marker" style="--start: 2; --span: 4;" aria-label="PhD awarded">PhD</span></div>
+</div>
+<div class="timeline-row timeline-alumni timeline-phd">
+<div class="timeline-label"><span class="timeline-status">Completed PhD</span><span class="timeline-person-name">Domniki Manousi</span></div><div class="timeline-track"><span class="timeline-bar" style="--start: 2; --span: 3;"></span><span class="timeline-degree timeline-degree-marker" style="--start: 2; --span: 3;" aria-label="PhD awarded">PhD</span></div>
+</div>
+<div class="timeline-row timeline-alumni">
+<div class="timeline-label"><span class="timeline-status">Master’s intern</span><span class="timeline-person-name">Maëlys Chapis</span></div><div class="timeline-track"><span class="timeline-bar" style="--start: 5; --span: 1;"></span></div>
+</div>
+<div class="timeline-row timeline-alumni">
+<div class="timeline-label"><span class="timeline-status">Postdoctoral researcher</span><span class="timeline-person-name">Jun Soung Kwak</span></div><div class="timeline-track"><span class="timeline-bar" style="--start: 2; --span: 2;"></span></div>
+</div>
+<div class="timeline-row timeline-alumni">
+<div class="timeline-label"><span class="timeline-status">Master’s student</span><span class="timeline-person-name">Erik Sandertun Røed</span></div><div class="timeline-track"><span class="timeline-bar" style="--start: 2; --span: 2;"></span></div>
+</div>
+<div class="timeline-row timeline-alumni">
+<div class="timeline-label"><span class="timeline-status">Master’s intern</span><span class="timeline-person-name">Akira Harding</span></div><div class="timeline-track"><span class="timeline-bar" style="--start: 3; --span: 1;"></span></div>
+</div>
+<div class="timeline-row timeline-alumni">
+<div class="timeline-label"><span class="timeline-status">Master’s intern</span><span class="timeline-person-name">Pauline Buso</span></div><div class="timeline-track"><span class="timeline-bar" style="--start: 2; --span: 1;"></span></div>
+</div>
+</div>
+</div>
+:::
+:::
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".timeline-scroll").forEach(function (timeline) {
+    timeline.scrollLeft = timeline.scrollWidth;
+  });
+});
+</script>
+
 ## Principal investigator
 
 ::: {.person-card .pi-card}
