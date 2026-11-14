@@ -67,8 +67,36 @@ a { color:var(--deep); } a:hover { color:var(--blue); }
 .person-years p { margin:0; }
 .person-name-row { display:flex; align-items:flex-start; justify-content:space-between; gap:1rem; margin:0 0 .8rem; }
 .person-name-row h3 { margin:0; }
-.role-tag { display:inline-flex; align-items:center; min-width:7.6rem; min-height:1.8rem; justify-content:center; margin:0; padding:.25rem .7rem; color:#000; background:var(--sky); border-radius:999px; font-size:.75rem; font-weight:750; }
+.role-tag { display:inline-flex; align-items:center; min-width:7.6rem; min-height:2rem; justify-content:center; margin:0; padding:.3rem .8rem; color:#000; background:var(--sky); border-radius:999px; font-size:.82rem; font-weight:750; }
 .role-tag p { margin:0; }
+.people-timeline { margin:1rem 0 2.6rem; padding:1.2rem 1.25rem 1rem; background:#fff; border:1px solid var(--mist); border-radius:.6rem; }
+.timeline-scroll { max-width:680px; overflow-x:auto; padding-bottom:.7rem; scrollbar-color:var(--blue) rgba(255,255,255,.65); }
+.timeline-canvas { width:1500px; }
+.timeline-axis,.timeline-row { display:grid; grid-template-columns:300px repeat(7, 1fr); column-gap:0; }
+.timeline-axis { display:block; width:100%; color:var(--deep); font-size:.78rem; font-weight:800; }
+.timeline-axis > p { display:grid; grid-template-columns:300px repeat(7, 1fr); width:100%; margin:0; }
+.timeline-axis > p > span:not(:first-child) { display:flex; align-items:flex-end; justify-content:center; padding:0 .35rem .45rem; border-left:1px solid rgba(0,43,64,.18); }
+.timeline-axis-label { position:sticky; left:0; z-index:4; display:block; background:#fff; }
+.timeline-group-label { position:sticky; left:0; z-index:5; width:300px; box-sizing:border-box; padding:.55rem .65rem .35rem; color:var(--deep); background:#fff; border-bottom:2px solid var(--mist); box-shadow:5px 0 8px -8px rgba(0,43,64,.45); font-size:.78rem; font-weight:850; letter-spacing:.04em; text-transform:uppercase; }
+.timeline-group-current,.timeline-group-alumni { background:var(--mist); }
+.timeline-group-gap { width:100%; height:1.2rem; }
+.timeline-row { min-height:2.2rem; align-items:center; border-top:1px solid rgba(0,43,64,.12); }
+.timeline-label { position:sticky; left:0; z-index:3; display:flex; align-items:center; gap:.45rem; padding:.35rem .8rem .35rem 0; color:var(--ink); background:#fff; box-shadow:5px 0 8px -8px rgba(0,43,64,.45); font-size:.86rem; font-weight:700; white-space:nowrap; }
+.timeline-current .timeline-label,.timeline-alumni .timeline-label { background:#fff; }
+.timeline-status,.timeline-degree { display:inline-flex; align-items:center; border-radius:999px; line-height:1.2; vertical-align:middle; }
+.timeline-status { min-height:2rem; justify-content:center; margin:0; padding:.3rem .8rem; color:#000; background:var(--sky); font-size:.82rem; font-weight:750; }
+.timeline-person-name { display:inline-block; }
+.timeline-degree { margin:0; padding:.13rem .4rem; color:#fff; background:var(--deep); font-size:.62rem; font-weight:800; letter-spacing:.03em; }
+.timeline-degree-marker { position:absolute; top:.36rem; left:calc((var(--start) + var(--span)) * 14.2857% - .55rem); z-index:2; }
+.timeline-track { position:relative; grid-column:2 / -1; height:100%; min-height:2.2rem; background:repeating-linear-gradient(to right, transparent 0, transparent calc(14.2857% - 1px), rgba(0,43,64,.18) calc(14.2857% - 1px), rgba(0,43,64,.18) 14.2857%); }
+.timeline-bar { position:absolute; top:.48rem; left:calc(var(--start) * 14.2857% + .25rem); width:calc(var(--span) * 14.2857% - .5rem); min-width:1rem; height:1.25rem; display:block; overflow:hidden; background:var(--sky); border-radius:.25rem; }
+.timeline-alumni .timeline-bar { opacity:.58; }
+.timeline-current .timeline-bar { background:var(--deep); color:#fff; }
+.timeline-legend { display:flex; flex-wrap:wrap; gap:.8rem 1.2rem; margin-top:.8rem; color:var(--charcoal); font-size:.78rem; }
+.timeline-legend > span { display:inline-flex; align-items:center; gap:.35rem; }
+.legend-swatch { display:inline-block; width:.8rem; height:.8rem; border-radius:.2rem; background:var(--deep); }
+.legend-alumni { opacity:.58; }
+.timeline-legend .legend-degree { margin:0; padding:.12rem .35rem; color:#fff; background:var(--deep); }
 .representative-work { margin-top:.85rem; }
 .representative-work p { margin:.35rem 0; }
 .join-grid { grid-template-columns:1fr; max-width:1080px; margin:3rem auto; padding:0 2rem; }
@@ -115,4 +143,7 @@ a { color:var(--deep); } a:hover { color:var(--blue); }
   .news-item { grid-template-columns:1fr; gap:.35rem; }
   .news-row { grid-template-columns:1fr; gap:.65rem; }
   .person-photo,.person-photo-placeholder { width:6.5rem; margin-left:1rem; }
+  .people-timeline { padding-inline:1rem; }
+  .timeline-canvas { width:1120px; }
+  .timeline-axis,.timeline-row { grid-template-columns:300px repeat(7, 1fr); }
 }
